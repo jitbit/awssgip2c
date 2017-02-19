@@ -6,7 +6,8 @@ document
         var xmlHttp = new XMLHttpRequest();
         xmlHttp.onreadystatechange = function() { 
             if (xmlHttp.readyState == 4 && xmlHttp.status == 200) {
-                var cn = JSON.parse(xmlHttp.responseText).country_code;
+                var location = JSON.parse(xmlHttp.responseText)
+                var cn = location.country_code + ", " + location.region_name;
                 var span = document.createElement("span");
                 span.innerText = cn;
                 element.parentElement.appendChild(span);
