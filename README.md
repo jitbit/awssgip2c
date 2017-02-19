@@ -5,7 +5,7 @@ A *very* simple chrome extension for EC2 security groups **that maps IP-addresse
 ## Usage
 
 0. Install the Chrome extension (unpacked, using Chrome settings)
-1. Go to AWS (https://console.aws.amazon.com/console/home)[web-console]
+1. Go to AWS [web-console](https://console.aws.amazon.com/console/home)
 2. Open a security group for EDITING (like "group X - Inbound - Edit"
 3. Click the extension button in Chrome
 4. You'll see **country codes** appearing next to IP addresses
