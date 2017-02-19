@@ -15,3 +15,5 @@ A *very* simple chrome extension for EC2 security groups **that maps IP-addresse
 Say you (or your colleagues) went on vacation or a business trip. And you had to SSH (or RDP) to your server from a hotel room. But SSH is closed by a security group, allowed only to certain IP addresses. Sounds familiar? Not a problem, you add your current IP address to the security group. And forget about it.
 
 Now, after a year or so you see over a dozen rules and can't tell what's what. This is when this extension comes handy.
+
+<img src="https://i.imgur.com/Id3ObSm.png" />
